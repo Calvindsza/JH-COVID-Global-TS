@@ -5,8 +5,10 @@ Gather time series data from JHU GitHub to create a time series
 
 ---
 
-Data was given in wide format, I had to convert to long format using melt()
-
+## Overview:
+* `merge()` 3 .csv files into 1 data frame
+* Data was given in wide format, I had to convert to long format using `melt()`
+* Plotted data together and by individual coutry
 
 ## Global Deaths Time Series
 ![all_conutries](jhu_all_countries_deaths_ts.png)
@@ -45,4 +47,4 @@ Data was given in wide format, I had to convert to long format using melt()
 
 ---
 
-Future Updates: Add time series for confirmed cases and recovered
+Future Updates: Add time series for confirmed cases and recovered, automate
